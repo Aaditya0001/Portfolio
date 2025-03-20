@@ -17,6 +17,36 @@ const about = {
   },
 }
 
+const education = [
+  {
+    institution: 'University of Wisconsin - Madison',
+    degree: 'MS in Information Science',
+    date: 'Sep 2023 - May 2025',
+    gpa: 'GPA: 3.9/4.0',
+  },
+  {
+    institution: 'University of Mumbai',
+    degree: 'Electronics and Telecommunication Engineering (Minor in Data Science)',
+    date: 'Sep 2019 - May 2023',
+    gpa: 'GPA: 3.7/4.0',
+  },
+];
+
+const experience = [
+  {
+    company: 'Baker’s Nest Private Limited',
+    description: 'Worked as a Data Scientist on data cleaning, dashboard creation, and A/B testing to enhance data accessibility, optimize marketing strategies, and automate business processes.',
+    location: 'Mumbai, India',
+    date: 'Nov 2022 - Aug 2023',
+  },
+  {
+    company: 'The Sparks Foundation',
+    description: 'Worked as a Data Analytics Intern to analyze large datasets, developed real-time dashboards, and led initiatives to improve data accessibility, operational efficiency, and database integrity.',
+    location: 'Singapore',
+    date: 'Sep 2022 - Oct 2022',
+  },
+]
+
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -25,24 +55,24 @@ const projects = [
     description:
       'A comprehensive visualization project analyzing data science job salary trends across different roles, experience levels, and countries using Tableau. This project reveals key insights into compensation patterns within the data science industry, highlighting factors that influence salary distributions in this rapidly evolving field.',
     stack: ['Python', 'MySQL', 'Tableau','Scikit-Learn'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://drive.google.com/file/d/1jeD_p8fOrK052JLoLkLERbgXppv5KNU-/view?usp=drive_link',
+    livePreview: 'https://drive.google.com/file/d/1jeD_p8fOrK052JLoLkLERbgXppv5KNU-/view?usp=drive_link',
   },
   {
     name: 'Parkinson’s Disease Prediction using Gait Data Analysis',
     description:
       'A diagnostic system for Parkinsons disease detection through gait data analysis, built using Python and SQL. The project included creating comprehensive Tableau dashboards and statistical reports to enhance early detection capabilities for medical professionals.',
     stack: ['Python', 'MySQL', 'Tableau','Machine Learning'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://drive.google.com/file/d/1mDIeDXtzKT6AzDAJy03H--82mSP7ngy4/view?usp=sharing',
+    livePreview: 'https://drive.google.com/file/d/1mDIeDXtzKT6AzDAJy03H--82mSP7ngy4/view?usp=sharing',
   },
   {
     name: 'Airplane Price Forecasting using Machine Learning',
     description:
       'A machine learning solution for predicting airplane ticket prices using Random Forest algorithms. The project involved comprehensive data preprocessing to enhance data integrity and building an accurate predictive model to estimate airfare costs.',
     stack: ['Python', 'Predictive Modelling', 'Data Pipeline','Machine Learning', 'Tableau'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://drive.google.com/file/d/1sL7tA-Uzl6AP3e2-uHvIL3s_mdC6QXsF/view?usp=sharing',
+    livePreview: 'https://drive.google.com/file/d/1sL7tA-Uzl6AP3e2-uHvIL3s_mdC6QXsF/view?usp=sharing',
   },
 ]
 
@@ -68,4 +98,4 @@ const contact = {
   email: 'aadityam011@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, education, experience, projects, skills, contact }

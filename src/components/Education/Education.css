@@ -1,0 +1,38 @@
+.education {
+    background-color: var(--clr-bg); /* Match the portfolio background */
+    padding: 4em 0;
+  }
+  
+  .education__grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    grid-gap: 2em;
+  }
+  
+  .education__card {
+    background: var(--clr-card-bg); /* Card background, similar to other sections */
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .education__institution {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .education__degree {
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+  
+  .education__date,
+  .education__gpa {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  
